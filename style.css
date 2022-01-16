@@ -22,3 +22,38 @@ section{
     background-color: tomato;
     padding: 10px 40px;
 }
+/* courses style */
+.alion{
+    justify-content: right 50px;
+
+}
+.course .course-banner img{
+    width: 240px;
+    height: 180px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    
+    margin-top: 100px;
+    margin-right: 5px;
+    background-color:whitesmoke;
+     width: 250px;
+     box-shadow: 5px;
+    
+}
+.course-title{
+    font-size: 30px;
+}
+.see{
+    color: tomato;
+    text-align: right;
+}
+
